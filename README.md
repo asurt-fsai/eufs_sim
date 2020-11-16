@@ -39,7 +39,13 @@ To enable ROS to find the EUFS packages you also need to run
 _Note:_ source needs to be run on each new terminal you open. You can also include it in your `.bashrc` file.
 
 Now you can finally run eufs simulation!!
-```roslaunch eufs_gazebo small_track.launch```
+```
+roslaunch eufs_gazebo small_track.launch
+roslaunch eufs_gazebo skidpad.launch
+roslaunch eufs_gazebo acceleration.launch
+roslaunch eufs_gazebo big_track.launch
+```
+
 
 An easy way to control the car is via
 ```roslaunch robot_control rqt_robot_control.launch```
