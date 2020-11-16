@@ -1,7 +1,7 @@
 # EUFS Autonomous Simulation
 
 ROS/Gazebo simulation packages for driverless FSAE vehicles.
-This repository is a hard fork of www.github.com/eufsa/eufs_sim repository, forked by a ASURT team of Ain Shams University, Egypt
+This repository is a hard fork of www.github.com/eufsa/eufs_sim repository, forked by ASURT team of Ain Shams University, Egypt
 
 ### Contents
 1. [Install Prerequisites](#requirements)
