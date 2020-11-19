@@ -1,7 +1,7 @@
 # EUFS Autonomous Simulation
 
 ROS/Gazebo simulation packages for driverless FSAE vehicles.
-This repository is a hard fork of www.github.com/eufsa/eufs_sim repository, forked by a ASURT team of Ain Shams University, Egypt
+This repository is a hard fork of www.github.com/eufsa/eufs_sim repository, forked by ASURT team of Ain Shams University, Egypt
 
 ### Contents
 1. [Install Prerequisites](#requirements)
@@ -11,7 +11,7 @@ This repository is a hard fork of www.github.com/eufsa/eufs_sim repository, fork
 ## Setup Instructions
 ### 1. Install Prerequisites <a name="requirements"></a>
 ##### - Install Ubuntu 20.04 LTS
-##### - Install [ros-noetic-desktop-full](http://wiki.ros.org/kinetic/Installation)
+##### - Install [ros-noetic-desktop-full](http://wiki.ros.org/noetic/Installation)
 ##### - Install ROS packages:
 ```
 sudo apt-get install ros-noetic-ackermann-msgs ros-noetic-twist-mux ros-noetic-joy ros-noetic-controller-manager ros-noetic-robotnik-msgs ros-noetic-velodyne-simulator ros-noetic-effort-controllers ros-noetic-velocity-controllers ros-noetic-joint-state-controller ros-noetic-gazebo-ros-control
@@ -39,7 +39,13 @@ To enable ROS to find the EUFS packages you also need to run
 _Note:_ source needs to be run on each new terminal you open. You can also include it in your `.bashrc` file.
 
 Now you can finally run eufs simulation!!
-```roslaunch eufs_gazebo small_track.launch```
+```
+roslaunch eufs_gazebo small_track.launch
+roslaunch eufs_gazebo skidpad.launch
+roslaunch eufs_gazebo acceleration.launch
+roslaunch eufs_gazebo big_track.launch
+```
+
 
 An easy way to control the car is via
 ```roslaunch robot_control rqt_robot_control.launch```
