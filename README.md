@@ -14,7 +14,7 @@ This repository is a hard fork of www.github.com/eufsa/eufs_sim repository, fork
 ##### - Install [ros-noetic-desktop-full](http://wiki.ros.org/noetic/Installation)
 ##### - Install ROS packages:
 ```
-sudo apt-get install ros-noetic-ackermann-msgs ros-noetic-twist-mux ros-noetic-joy ros-noetic-controller-manager ros-noetic-robotnik-msgs ros-noetic-velodyne-simulator ros-noetic-effort-controllers ros-noetic-velocity-controllers ros-noetic-joint-state-controller ros-noetic-gazebo-ros-control
+sudo apt-get install ros-noetic-ackermann-msgs ros-noetic-twist-mux ros-noetic-joy ros-noetic-controller-manager ros-noetic-velodyne-simulator ros-noetic-effort-controllers ros-noetic-velocity-controllers ros-noetic-joint-state-controller ros-noetic-gazebo-ros-control
 ```
 
 
