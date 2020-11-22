@@ -29,7 +29,7 @@ Copy the contents of this repository to the `src` folder you just created.
 
 Navigate to your workspace and build the simulation:
 ```
-cd ~/catkin_ws/
+cd ~/catkin_ws
 catkin_make OR catkin build
 ```
 _Note:_ You can use `catkin build` instead of `catkin_make` if you know what you are doing.
