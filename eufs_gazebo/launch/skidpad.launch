@@ -42,11 +42,12 @@
   <include file="$(find robot_control)/launch/robot_control.launch"/>
 
   <!-- Python script to republish ground truth -->
-  <node 
-    name="ground_truth_republisher"
-    pkg="eufs_gazebo"
-    type="ground_truth_republisher.py"
-    output="screen"
-  />
+  <!-- <node name="ground_truth_republisher" pkg="eufs_gazebo" type="ground_truth_republisher.py" output="screen"/> -->
+
+  <!-- Added by Ahmad Samy -->
+  <node name="local_velocity_publisher" pkg="eufs_gazebo" type="local_velocity_publisher.py" output="screen"/>
+  <!-- <include file="$(find robot_control)/launch/rqt_robot_control.launch"/> -->
+  <include file="$(find gazebo_wheels_odom)/launch/encoder.launch"/>
+
 
 </launch>

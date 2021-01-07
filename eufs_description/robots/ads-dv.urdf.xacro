@@ -68,9 +68,9 @@
     LIDAR: 1.700 0.0 -0.150
     STEREO CAM: -0.110 0.0 0.800 -->
 
-    <xacro:sensor_imu parent="base_link" prefix="imu">
+    <xacro:sensor_imu_hector parent="base_link" prefix="imu">
         <origin xyz="-0.0 0.0 0.0" rpy="0 0 0"/>
-    </xacro:sensor_imu>
+    </xacro:sensor_imu_hector>
 
 
     <xacro:sensor_gps  parent="base_link" prefix="gps">
