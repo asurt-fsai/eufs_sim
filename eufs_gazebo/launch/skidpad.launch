@@ -46,7 +46,7 @@
 
   <!-- Added by Ahmad Samy -->
   <node name="local_velocity_publisher" pkg="eufs_gazebo" type="local_velocity_publisher.py" output="screen"/>
-  <!-- <include file="$(find robot_control)/launch/rqt_robot_control.launch"/> -->
+  <include file="$(find robot_control)/launch/rqt_robot_control.launch"/>
   <include file="$(find gazebo_wheels_odom)/launch/encoder.launch"/>
 
 
